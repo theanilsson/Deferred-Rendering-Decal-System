@@ -34,7 +34,7 @@
 
 
 
-// The snippets below here are part of the level's postmaster recieve logic, triggered when goo is shot from the player's gun
+// The snippets below here are part of the level's observer pattern recieve logic, triggered when goo is shot from the player's gun
 // They were co-written with another programmer in my group but I included them here because the goo uses my decal rendering logic
 {
 	case eMessageType::CreateGooPuddle:

@@ -10,7 +10,7 @@
 	}
 }
 
-// This snippet is part of the level render logic
+// This snippet is part of the level render logic, making the Decal drawcalls
 {
 	aGeometryBuffer.SetAsActiveTarget(DE::GeometryBuffer::eGeometryBufferTexture::Albedo);
 	aGeometryBuffer.SetAsResourceOnSlot(DE::GeometryBuffer::eGeometryBufferTexture::WorldPosition, 6);
